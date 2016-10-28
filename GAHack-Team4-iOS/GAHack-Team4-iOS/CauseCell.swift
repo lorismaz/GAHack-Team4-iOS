@@ -10,6 +10,8 @@ import UIKit
 
 class CauseCell: UITableViewCell {
 
+    @IBOutlet weak var causeNameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

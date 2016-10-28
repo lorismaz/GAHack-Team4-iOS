@@ -16,6 +16,11 @@
 		ABDCA78B1DC3E1330082CBDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78A1DC3E1330082CBDE /* User.swift */; };
 		ABDCA78E1DC3E2C00082CBDE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78D1DC3E2C00082CBDE /* TableViewController.swift */; };
 		ABDCA7901DC3E33A0082CBDE /* CauseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78F1DC3E33A0082CBDE /* CauseCell.swift */; };
+		ABDCA7921DC3F7B70082CBDE /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7911DC3F7B70082CBDE /* Organization.swift */; };
+		ABF74D581DC402F10092A23D /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABF74D571DC402EE0092A23D /* Montserrat-Regular.ttf */; };
+		ABF74D5A1DC4064C0092A23D /* CauseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF74D591DC4064C0092A23D /* CauseDetailsViewController.swift */; };
+		ABF74D5D1DC406690092A23D /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF74D5C1DC406690092A23D /* InvestViewController.swift */; };
+		ABF74D5F1DC406740092A23D /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF74D5E1DC406740092A23D /* ConfirmationViewController.swift */; };
 		DEBD3CFB1787A78831AD9623 /* Pods_GAHack_Team4_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C97DBB8FCCB108CB503322 /* Pods_GAHack_Team4_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +38,11 @@
 		ABDCA78A1DC3E1330082CBDE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ABDCA78D1DC3E2C00082CBDE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		ABDCA78F1DC3E33A0082CBDE /* CauseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CauseCell.swift; sourceTree = "<group>"; };
+		ABDCA7911DC3F7B70082CBDE /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		ABF74D571DC402EE0092A23D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		ABF74D591DC4064C0092A23D /* CauseDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CauseDetailsViewController.swift; sourceTree = "<group>"; };
+		ABF74D5C1DC406690092A23D /* InvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
+		ABF74D5E1DC406740092A23D /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 		D67274A3E80067554361F5FF /* Pods-GAHack-Team4-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAHack-Team4-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-GAHack-Team4-iOS/Pods-GAHack-Team4-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,8 +87,9 @@
 		ABDCA7751DC3CD6D0082CBDE /* GAHack-Team4-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				ABF74D571DC402EE0092A23D /* Montserrat-Regular.ttf */,
 				ABDCA7761DC3CD6D0082CBDE /* AppDelegate.swift */,
-				ABDCA7781DC3CD6D0082CBDE /* CauseViewController.swift */,
+				ABF74D5B1DC406520092A23D /* View Controllers */,
 				ABDCA77A1DC3CD6D0082CBDE /* Main.storyboard */,
 				ABDCA77D1DC3CD6D0082CBDE /* Assets.xcassets */,
 				ABDCA77F1DC3CD6D0082CBDE /* LaunchScreen.storyboard */,
@@ -95,8 +106,20 @@
 			children = (
 				ABDCA7881DC3E0E70082CBDE /* Cause.swift */,
 				ABDCA78A1DC3E1330082CBDE /* User.swift */,
+				ABDCA7911DC3F7B70082CBDE /* Organization.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		ABF74D5B1DC406520092A23D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCA7781DC3CD6D0082CBDE /* CauseViewController.swift */,
+				ABF74D591DC4064C0092A23D /* CauseDetailsViewController.swift */,
+				ABF74D5C1DC406690092A23D /* InvestViewController.swift */,
+				ABF74D5E1DC406740092A23D /* ConfirmationViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		EA448E94BDE74BB416BCABF1 /* Pods */ = {
@@ -171,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF74D581DC402F10092A23D /* Montserrat-Regular.ttf in Resources */,
 				ABDCA7811DC3CD6D0082CBDE /* LaunchScreen.storyboard in Resources */,
 				ABDCA77E1DC3CD6D0082CBDE /* Assets.xcassets in Resources */,
 				ABDCA77C1DC3CD6D0082CBDE /* Main.storyboard in Resources */,
@@ -232,10 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF74D5D1DC406690092A23D /* InvestViewController.swift in Sources */,
 				ABDCA78B1DC3E1330082CBDE /* User.swift in Sources */,
 				ABDCA7791DC3CD6D0082CBDE /* CauseViewController.swift in Sources */,
+				ABF74D5A1DC4064C0092A23D /* CauseDetailsViewController.swift in Sources */,
+				ABF74D5F1DC406740092A23D /* ConfirmationViewController.swift in Sources */,
 				ABDCA7771DC3CD6D0082CBDE /* AppDelegate.swift in Sources */,
 				ABDCA7901DC3E33A0082CBDE /* CauseCell.swift in Sources */,
+				ABDCA7921DC3F7B70082CBDE /* Organization.swift in Sources */,
 				ABDCA78E1DC3E2C00082CBDE /* TableViewController.swift in Sources */,
 				ABDCA7891DC3E0E70082CBDE /* Cause.swift in Sources */,
 			);
