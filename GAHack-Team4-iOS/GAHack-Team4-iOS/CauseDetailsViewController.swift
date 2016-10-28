@@ -12,6 +12,12 @@ class CauseDetailsViewController: UIViewController {
     
     var cause: Cause?
     
+    @IBOutlet weak var causeImage: UIImageView!
+    
+    @IBOutlet weak var causeName: UILabel!
+    
+    @IBOutlet weak var causeDescription: UITextView!
+    
     @IBAction func investButtonTapped(_ sender: UIButton) {
     
     performSegue(withIdentifier: "ToInvest", sender: self)
@@ -23,6 +29,11 @@ class CauseDetailsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        guard let cause = cause else { return }
+        
+        causeName.text = cause.name
+        causeImage.image = UIImage(named: cause.imageUrl)
+        
     }
 
     override func didReceiveMemoryWarning() {

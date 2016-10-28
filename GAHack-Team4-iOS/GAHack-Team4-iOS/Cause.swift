@@ -10,28 +10,28 @@ import Foundation
 
 class Cause {
     let name: String
-    let description: String
+    //let description: String
     let imageUrl: String
-    let organizations: [Organization]
+   // let organizations: [Organization]
     
-    public init(name: String, description: String, imageUrl: String, organizations: [Organization]) {
+    public init(name: String, imageUrl: String) {
         self.name = name
-        self.description = description
+        //self.description = description
         self.imageUrl = imageUrl
-        self.organizations = organizations
+        //self.organizations = organizations
     }
     
     static func fromDictionary(dictionary: NSDictionary) -> Cause? {
         
         //Pull out each individual element from the dictionary
         guard let name = dictionary["name"] as? String,
-            let description = dictionary["description"] as? String,
+            //let description = dictionary["description"] as? String,
             let imageUrl = dictionary["image_url"] as? String
             else {
                 return nil
         }
         
         //Take the data parsed and create a Place Object from it
-        return Cause(name: name, description: description, imageUrl: imageUrl, organizations: [])
+        return Cause(name: name, imageUrl: imageUrl)
     }
 }

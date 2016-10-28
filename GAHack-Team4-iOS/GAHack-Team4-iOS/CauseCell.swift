@@ -12,6 +12,8 @@ class CauseCell: UITableViewCell {
 
     @IBOutlet weak var causeNameLabel: UILabel!
     
+    @IBOutlet weak var causeImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
