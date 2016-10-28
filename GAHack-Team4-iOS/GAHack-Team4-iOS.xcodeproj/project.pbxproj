@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		ABDCA7771DC3CD6D0082CBDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7761DC3CD6D0082CBDE /* AppDelegate.swift */; };
-		ABDCA7791DC3CD6D0082CBDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7781DC3CD6D0082CBDE /* ViewController.swift */; };
+		ABDCA7791DC3CD6D0082CBDE /* CauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7781DC3CD6D0082CBDE /* CauseViewController.swift */; };
 		ABDCA77C1DC3CD6D0082CBDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCA77A1DC3CD6D0082CBDE /* Main.storyboard */; };
 		ABDCA77E1DC3CD6D0082CBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDCA77D1DC3CD6D0082CBDE /* Assets.xcassets */; };
 		ABDCA7811DC3CD6D0082CBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCA77F1DC3CD6D0082CBDE /* LaunchScreen.storyboard */; };
+		ABDCA7891DC3E0E70082CBDE /* Cause.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7881DC3E0E70082CBDE /* Cause.swift */; };
+		ABDCA78B1DC3E1330082CBDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78A1DC3E1330082CBDE /* User.swift */; };
+		ABDCA78E1DC3E2C00082CBDE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78D1DC3E2C00082CBDE /* TableViewController.swift */; };
+		ABDCA7901DC3E33A0082CBDE /* CauseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78F1DC3E33A0082CBDE /* CauseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABDCA7731DC3CD6D0082CBDE /* GAHack-Team4-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAHack-Team4-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDCA7761DC3CD6D0082CBDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABDCA7781DC3CD6D0082CBDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDCA7781DC3CD6D0082CBDE /* CauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CauseViewController.swift; sourceTree = "<group>"; };
 		ABDCA77B1DC3CD6D0082CBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABDCA77D1DC3CD6D0082CBDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABDCA7801DC3CD6D0082CBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABDCA7821DC3CD6D0082CBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDCA7881DC3E0E70082CBDE /* Cause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cause.swift; sourceTree = "<group>"; };
+		ABDCA78A1DC3E1330082CBDE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ABDCA78D1DC3E2C00082CBDE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ABDCA78F1DC3E33A0082CBDE /* CauseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CauseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				ABDCA7761DC3CD6D0082CBDE /* AppDelegate.swift */,
-				ABDCA7781DC3CD6D0082CBDE /* ViewController.swift */,
+				ABDCA7781DC3CD6D0082CBDE /* CauseViewController.swift */,
 				ABDCA77A1DC3CD6D0082CBDE /* Main.storyboard */,
 				ABDCA77D1DC3CD6D0082CBDE /* Assets.xcassets */,
 				ABDCA77F1DC3CD6D0082CBDE /* LaunchScreen.storyboard */,
 				ABDCA7821DC3CD6D0082CBDE /* Info.plist */,
+				ABDCA78C1DC3E16B0082CBDE /* Models */,
+				ABDCA78D1DC3E2C00082CBDE /* TableViewController.swift */,
+				ABDCA78F1DC3E33A0082CBDE /* CauseCell.swift */,
 			);
 			path = "GAHack-Team4-iOS";
+			sourceTree = "<group>";
+		};
+		ABDCA78C1DC3E16B0082CBDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCA7881DC3E0E70082CBDE /* Cause.swift */,
+				ABDCA78A1DC3E1330082CBDE /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABDCA7791DC3CD6D0082CBDE /* ViewController.swift in Sources */,
+				ABDCA78B1DC3E1330082CBDE /* User.swift in Sources */,
+				ABDCA7791DC3CD6D0082CBDE /* CauseViewController.swift in Sources */,
 				ABDCA7771DC3CD6D0082CBDE /* AppDelegate.swift in Sources */,
+				ABDCA7901DC3E33A0082CBDE /* CauseCell.swift in Sources */,
+				ABDCA78E1DC3E2C00082CBDE /* TableViewController.swift in Sources */,
+				ABDCA7891DC3E0E70082CBDE /* Cause.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
