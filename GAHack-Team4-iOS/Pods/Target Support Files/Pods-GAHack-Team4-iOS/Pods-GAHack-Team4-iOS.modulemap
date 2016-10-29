@@ -1,0 +1,6 @@
+framework module Pods_GAHack_Team4_iOS {
+  umbrella header "Pods-GAHack-Team4-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

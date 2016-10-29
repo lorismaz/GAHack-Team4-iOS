@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		ABDCA7771DC3CD6D0082CBDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7761DC3CD6D0082CBDE /* AppDelegate.swift */; };
-		ABDCA7791DC3CD6D0082CBDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7781DC3CD6D0082CBDE /* ViewController.swift */; };
+		ABDCA7791DC3CD6D0082CBDE /* CauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7781DC3CD6D0082CBDE /* CauseViewController.swift */; };
 		ABDCA77C1DC3CD6D0082CBDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCA77A1DC3CD6D0082CBDE /* Main.storyboard */; };
 		ABDCA77E1DC3CD6D0082CBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDCA77D1DC3CD6D0082CBDE /* Assets.xcassets */; };
 		ABDCA7811DC3CD6D0082CBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDCA77F1DC3CD6D0082CBDE /* LaunchScreen.storyboard */; };
+		ABDCA7891DC3E0E70082CBDE /* Cause.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7881DC3E0E70082CBDE /* Cause.swift */; };
+		ABDCA78B1DC3E1330082CBDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78A1DC3E1330082CBDE /* User.swift */; };
+		ABDCA78E1DC3E2C00082CBDE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78D1DC3E2C00082CBDE /* TableViewController.swift */; };
+		ABDCA7901DC3E33A0082CBDE /* CauseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA78F1DC3E33A0082CBDE /* CauseCell.swift */; };
+		ABDCA7921DC3F7B70082CBDE /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCA7911DC3F7B70082CBDE /* Organization.swift */; };
+		ABF74D581DC402F10092A23D /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABF74D571DC402EE0092A23D /* Montserrat-Regular.ttf */; };
+		ABF74D5A1DC4064C0092A23D /* CauseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF74D591DC4064C0092A23D /* CauseDetailsViewController.swift */; };
+		ABF74D5D1DC406690092A23D /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF74D5C1DC406690092A23D /* InvestViewController.swift */; };
+		ABF74D5F1DC406740092A23D /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF74D5E1DC406740092A23D /* ConfirmationViewController.swift */; };
+		DEBD3CFB1787A78831AD9623 /* Pods_GAHack_Team4_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C97DBB8FCCB108CB503322 /* Pods_GAHack_Team4_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E33ED43777C25DD2E5822AE /* Pods-GAHack-Team4-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAHack-Team4-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GAHack-Team4-iOS/Pods-GAHack-Team4-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		46C97DBB8FCCB108CB503322 /* Pods_GAHack_Team4_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAHack_Team4_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDCA7731DC3CD6D0082CBDE /* GAHack-Team4-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAHack-Team4-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDCA7761DC3CD6D0082CBDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABDCA7781DC3CD6D0082CBDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDCA7781DC3CD6D0082CBDE /* CauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CauseViewController.swift; sourceTree = "<group>"; };
 		ABDCA77B1DC3CD6D0082CBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABDCA77D1DC3CD6D0082CBDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABDCA7801DC3CD6D0082CBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABDCA7821DC3CD6D0082CBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDCA7881DC3E0E70082CBDE /* Cause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cause.swift; sourceTree = "<group>"; };
+		ABDCA78A1DC3E1330082CBDE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ABDCA78D1DC3E2C00082CBDE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ABDCA78F1DC3E33A0082CBDE /* CauseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CauseCell.swift; sourceTree = "<group>"; };
+		ABDCA7911DC3F7B70082CBDE /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		ABF74D571DC402EE0092A23D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		ABF74D591DC4064C0092A23D /* CauseDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CauseDetailsViewController.swift; sourceTree = "<group>"; };
+		ABF74D5C1DC406690092A23D /* InvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
+		ABF74D5E1DC406740092A23D /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+		D67274A3E80067554361F5FF /* Pods-GAHack-Team4-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAHack-Team4-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-GAHack-Team4-iOS/Pods-GAHack-Team4-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBD3CFB1787A78831AD9623 /* Pods_GAHack_Team4_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9456E68F7D7518CE618E57A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46C97DBB8FCCB108CB503322 /* Pods_GAHack_Team4_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABDCA76A1DC3CD6D0082CBDE = {
 			isa = PBXGroup;
 			children = (
 				ABDCA7751DC3CD6D0082CBDE /* GAHack-Team4-iOS */,
 				ABDCA7741DC3CD6D0082CBDE /* Products */,
+				EA448E94BDE74BB416BCABF1 /* Pods */,
+				9456E68F7D7518CE618E57A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,48 @@
 		ABDCA7751DC3CD6D0082CBDE /* GAHack-Team4-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				ABF74D571DC402EE0092A23D /* Montserrat-Regular.ttf */,
 				ABDCA7761DC3CD6D0082CBDE /* AppDelegate.swift */,
-				ABDCA7781DC3CD6D0082CBDE /* ViewController.swift */,
+				ABF74D5B1DC406520092A23D /* View Controllers */,
 				ABDCA77A1DC3CD6D0082CBDE /* Main.storyboard */,
 				ABDCA77D1DC3CD6D0082CBDE /* Assets.xcassets */,
 				ABDCA77F1DC3CD6D0082CBDE /* LaunchScreen.storyboard */,
 				ABDCA7821DC3CD6D0082CBDE /* Info.plist */,
+				ABDCA78C1DC3E16B0082CBDE /* Models */,
+				ABDCA78D1DC3E2C00082CBDE /* TableViewController.swift */,
+				ABDCA78F1DC3E33A0082CBDE /* CauseCell.swift */,
 			);
 			path = "GAHack-Team4-iOS";
+			sourceTree = "<group>";
+		};
+		ABDCA78C1DC3E16B0082CBDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCA7881DC3E0E70082CBDE /* Cause.swift */,
+				ABDCA78A1DC3E1330082CBDE /* User.swift */,
+				ABDCA7911DC3F7B70082CBDE /* Organization.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ABF74D5B1DC406520092A23D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCA7781DC3CD6D0082CBDE /* CauseViewController.swift */,
+				ABF74D591DC4064C0092A23D /* CauseDetailsViewController.swift */,
+				ABF74D5C1DC406690092A23D /* InvestViewController.swift */,
+				ABF74D5E1DC406740092A23D /* ConfirmationViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EA448E94BDE74BB416BCABF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E33ED43777C25DD2E5822AE /* Pods-GAHack-Team4-iOS.debug.xcconfig */,
+				D67274A3E80067554361F5FF /* Pods-GAHack-Team4-iOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABDCA7851DC3CD6D0082CBDE /* Build configuration list for PBXNativeTarget "GAHack-Team4-iOS" */;
 			buildPhases = (
+				95FA02735173931FFDA816E9 /* [CP] Check Pods Manifest.lock */,
 				ABDCA76F1DC3CD6D0082CBDE /* Sources */,
 				ABDCA7701DC3CD6D0082CBDE /* Frameworks */,
 				ABDCA7711DC3CD6D0082CBDE /* Resources */,
+				79BFFDB97919385DA36B1E8B /* [CP] Embed Pods Frameworks */,
+				7316EFB0A8CFEDEA4A25DD95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF74D581DC402F10092A23D /* Montserrat-Regular.ttf in Resources */,
 				ABDCA7811DC3CD6D0082CBDE /* LaunchScreen.storyboard in Resources */,
 				ABDCA77E1DC3CD6D0082CBDE /* Assets.xcassets in Resources */,
 				ABDCA77C1DC3CD6D0082CBDE /* Main.storyboard in Resources */,
@@ -132,13 +203,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7316EFB0A8CFEDEA4A25DD95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GAHack-Team4-iOS/Pods-GAHack-Team4-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BFFDB97919385DA36B1E8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GAHack-Team4-iOS/Pods-GAHack-Team4-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95FA02735173931FFDA816E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABDCA76F1DC3CD6D0082CBDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABDCA7791DC3CD6D0082CBDE /* ViewController.swift in Sources */,
+				ABF74D5D1DC406690092A23D /* InvestViewController.swift in Sources */,
+				ABDCA78B1DC3E1330082CBDE /* User.swift in Sources */,
+				ABDCA7791DC3CD6D0082CBDE /* CauseViewController.swift in Sources */,
+				ABF74D5A1DC4064C0092A23D /* CauseDetailsViewController.swift in Sources */,
+				ABF74D5F1DC406740092A23D /* ConfirmationViewController.swift in Sources */,
 				ABDCA7771DC3CD6D0082CBDE /* AppDelegate.swift in Sources */,
+				ABDCA7901DC3E33A0082CBDE /* CauseCell.swift in Sources */,
+				ABDCA7921DC3F7B70082CBDE /* Organization.swift in Sources */,
+				ABDCA78E1DC3E2C00082CBDE /* TableViewController.swift in Sources */,
+				ABDCA7891DC3E0E70082CBDE /* Cause.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +386,7 @@
 		};
 		ABDCA7861DC3CD6D0082CBDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E33ED43777C25DD2E5822AE /* Pods-GAHack-Team4-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JS9SEB342A;
@@ -272,6 +400,7 @@
 		};
 		ABDCA7871DC3CD6D0082CBDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67274A3E80067554361F5FF /* Pods-GAHack-Team4-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JS9SEB342A;
@@ -302,6 +431,7 @@
 				ABDCA7871DC3CD6D0082CBDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
