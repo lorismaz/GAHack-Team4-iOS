@@ -21,6 +21,17 @@ class ConfirmationViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    let priority = DispatchQueue.GlobalQueuePriority.default
+    
+   dispatch_async
+    
+//    dispatch_async(dispatch_get_global_queue(priority, 0)) {
+//    // do some task
+//    dispatch_async(dispatch_get_main_queue()) {
+//    // update some UI
+//    }
+//    }
+    
 
     /*
     // MARK: - Navigation
